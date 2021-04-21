@@ -4,3 +4,10 @@ server:
 spring:
   application:
     name: spring-boot-starter
+
+swagger:
+  enable: true
+  application-name: ${spring.application.name}
+  application-version: 1.0
+  application-description: Spring boot starter with Swagger 3
+  try-host: http://localhost:${server.port}
