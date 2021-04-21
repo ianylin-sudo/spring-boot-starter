@@ -8,4 +8,4 @@ spring:
 springfox:
   documentation:
     swagger-ui:
-      enabled: true
+      enabled: false
