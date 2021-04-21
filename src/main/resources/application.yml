@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: spring-boot-starter
+#  profiles:
+#    active: prod
 
 springfox:
   documentation:
