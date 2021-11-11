@@ -1,30 +1,17 @@
-2021-11-04 14:52:22,579 INFO o.s.b.StartupInfoLogger [main] Starting SpringLoggingApplication using Java 11.0.12 on Yans-Mac-mini.local with PID 77146 (/Users/lambertylin/Developer/spring-log4j2/target/classes started by lambertylin in /Users/lambertylin/Developer/spring-log4j2)
-2021-11-04 14:52:22,582 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
-2021-11-04 14:52:22,583 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
-2021-11-04 14:52:22,857 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
-2021-11-04 14:52:22,862 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
-2021-11-04 14:52:22,862 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2021-11-04 14:52:22,862 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
-2021-11-04 14:52:22,884 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2021-11-04 14:52:22,885 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 286 ms
-2021-11-04 14:52:22,992 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
-2021-11-04 14:52:23,003 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
-2021-11-04 14:52:23,008 INFO o.s.b.StartupInfoLogger [main] Started SpringLoggingApplication in 0.594 seconds (JVM running for 0.914)
-2021-11-04 14:52:32,455 INFO o.a.j.l.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-11-04 14:52:32,455 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
-2021-11-04 14:52:32,456 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
-2021-11-04 14:52:32,462 INFO c.l.s.c.IndexController [http-nio-8081-exec-1] /welcome is here
-2021-11-04 14:52:40,535 INFO c.l.s.c.IndexController [http-nio-8081-exec-2] /welcome is here
-2021-11-04 14:52:41,386 INFO c.l.s.c.IndexController [http-nio-8081-exec-3] /welcome is here
-2021-11-04 14:52:41,974 INFO c.l.s.c.IndexController [http-nio-8081-exec-4] /welcome is here
-2021-11-04 14:52:42,137 INFO c.l.s.c.IndexController [http-nio-8081-exec-5] /welcome is here
-2021-11-04 14:52:42,298 INFO c.l.s.c.IndexController [http-nio-8081-exec-6] /welcome is here
-2021-11-04 14:52:42,567 INFO c.l.s.c.IndexController [http-nio-8081-exec-7] /welcome is here
-2021-11-04 14:52:42,769 INFO c.l.s.c.IndexController [http-nio-8081-exec-8] /welcome is here
-2021-11-04 14:52:42,960 INFO c.l.s.c.IndexController [http-nio-8081-exec-9] /welcome is here
-2021-11-04 14:52:43,398 INFO c.l.s.c.IndexController [http-nio-8081-exec-10] /welcome is here
-2021-11-04 14:52:43,882 INFO c.l.s.c.IndexController [http-nio-8081-exec-1] /welcome is here
-2021-11-04 14:52:44,085 INFO c.l.s.c.IndexController [http-nio-8081-exec-2] /welcome is here
-2021-11-04 14:52:44,276 INFO c.l.s.c.IndexController [http-nio-8081-exec-3] /welcome is here
-2021-11-04 14:52:44,930 INFO c.l.s.c.IndexController [http-nio-8081-exec-4] /welcome is here
-2021-11-04 14:52:45,120 INFO c.l.s.c.IndexController [http-nio-8081-exec-5] /welcome is here
+2021-11-11 15:15:00,253 INFO o.s.b.StartupInfoLogger [main] Starting SpringBootStarterApplication using Java 11.0.12 on Yans-Mac-mini.local with PID 49897 (/Users/lambertylin/Developer/spring/spring-boot-starter/target/classes started by lambertylin in /Users/lambertylin/Developer/spring/spring-boot-starter)
+2021-11-11 15:15:00,255 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-11 15:15:00,256 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-11 15:15:00,658 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2021-11-11 15:15:00,661 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2021-11-11 15:15:00,662 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-11 15:15:00,662 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-11 15:15:00,700 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-11 15:15:00,700 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 430 ms
+2021-11-11 15:15:00,924 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2021-11-11 15:15:00,935 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2021-11-11 15:15:00,971 INFO o.s.b.StartupInfoLogger [main] Started SpringBootStarterApplication in 0.911 seconds (JVM running for 1.456)
+2021-11-11 15:16:11,899 INFO o.a.j.l.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-11 15:16:11,900 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-11-11 15:16:11,909 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 8 ms
+2021-11-11 15:16:11,925 INFO c.l.s.c.IndexController [http-nio-8081-exec-1] /greeting is here
+2021-11-11 15:16:36,976 INFO c.l.s.c.IndexController [http-nio-8081-exec-5] /greeting is here
