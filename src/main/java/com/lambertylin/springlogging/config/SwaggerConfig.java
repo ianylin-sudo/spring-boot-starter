@@ -1,5 +1,6 @@
 package com.lambertylin.springlogging.config;
 
+import com.github.xiaoymin.knife4j.spring.annotations.EnableKnife4j;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,6 +14,7 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
 @EnableOpenApi
+@EnableKnife4j
 @Configuration
 public class SwaggerConfig {
 
