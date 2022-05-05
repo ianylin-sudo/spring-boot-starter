@@ -4,6 +4,9 @@ server:
 spring:
   application:
     name: spring-boot-starter
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
 #  profiles:
 #    active: prod
 

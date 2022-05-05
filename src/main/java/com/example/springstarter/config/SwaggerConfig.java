@@ -7,10 +7,19 @@ import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
-/** Check API docs on http://localhost:8080/swagger-ui/index.html */
+/**
+ * Check API docs on
+ * 
+ * /swagger-ui.html
+ * /swagger-ui/**
+ * /swagger-resources/**
+ * /v2/api-docs
+ * /v3/api-docs
+ */
 @Configuration
 public class SwaggerConfig {
 
@@ -26,8 +35,9 @@ public class SwaggerConfig {
 
   private ApiInfo apiInfo() {
     return new ApiInfoBuilder()
-        .title("API docs")
+        .title("Swagger 3 API Documentation")
         .description("Spring Boot integrated with Swagger 3 Example")
+        .contact(new Contact("Yan Lin", "https://github.com/lin3yx", "linyan.work@gmail.com"))
         .version("0.0.1")
         .build();
   }

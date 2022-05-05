@@ -15,7 +15,7 @@ public class UserController {
 
   @ApiOperation("Get user by Id")
   @GetMapping("/{id}")
-  public User getUserById(@PathVariable Integer id) {
+  public User getUserById(@PathVariable int id) {
 
     User user = new User();
     user.setId(id);
